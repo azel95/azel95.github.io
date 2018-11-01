@@ -76,17 +76,18 @@ layout: default
 
     <nav class="pagination" role="navigation">
       <span class="page-number">Pàgina {{ paginator.page }} de {{ paginator.total_pages }}</span><br>
-      {% if paginator.next_page %}
-        <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>&larr; Publicacions anteriors</a>
-      {% endif %}
-      &nbsp;&nbsp;
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
-          <a class="older-posts" href={{ "/" | prepend: site.baseurl }}>Noves publicacions &rarr;</a>
+          <a class="older-posts" href={{ "/" | prepend: site.baseurl }}>&larr; Noves publicacions</a>
         {% else %}
-          <a class="older-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.previous_page }}>Noves publicacions &rarr;</a>
+          <a class="older-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.previous_page }}>&larr; Noves publicacions</a>
         {% endif %}
       {% endif %}
+      &nbsp;&nbsp;
+      {% if paginator.next_page %}
+        <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>Publicacions anteriors &rarr;</a>
+      {% endif %}
+      
     </nav>
 
 
