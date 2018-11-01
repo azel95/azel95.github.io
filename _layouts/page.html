@@ -43,16 +43,21 @@
         </section>
       </article>
     </main>
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
-        Imatge
-      </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href={{ "/" | prepend: site.baseurl }} class="btn">Back to Overview</a>
-      </div>
-    </div>
+    <div class="bottom-closer" >
+        <div class="inner">
+            <h2><a href="{{ "/" | prepend: site.baseurl }}">{{site.title }}</a></h2>
+            <div class="custom-links">
+              {% for social in site.social %}
+                {% if social.url %}
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+                      <i class="fa fa-{{ social.icon }}"></i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                {% endif %}
+              {% endfor %}
+              </div>
+        </div>
     {% include javascripts.html %}
   </body>
 </html>

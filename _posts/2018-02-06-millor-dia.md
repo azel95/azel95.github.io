@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "El sexe dels angels"
-categories: catala update
-tags: featured
-author: Gerard el guapo
+title:  "El meu aniversari, el millor dia"
+categories: catala
+tags: 
+author: Gerard el millor
 author-image: "/assets/images/author.jpg"
 ---
 Escriure el text aquí
