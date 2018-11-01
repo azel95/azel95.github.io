@@ -2,7 +2,7 @@
 layout: post
 title:  "El sexe dels angels"
 categories: catala update
-tags: featured
+tags: 
 author: Gerard el guapo
 author-image: "/assets/images/author.jpg"
 ---
