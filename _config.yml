@@ -3,8 +3,8 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Futura"
-name: 'FUTURA'
+title: "L'Escèptic"
+name: "L'Escèptic"
 description: > # this means to ignore newlines until "email:"
    La teva revista científica digital en català
 
