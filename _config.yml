@@ -16,7 +16,7 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/Portada.jpg"
 
-paginate: 5i
+paginate: 5
 
 # used to display twitter cards
 twitter_handle: '@casassaez'
