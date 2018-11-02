@@ -16,7 +16,7 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/Portada_futura.jpg"
 
-paginate: 1
+paginate: 5i
 
 # used to display twitter cards
 twitter_handle: '@casassaez'
@@ -30,17 +30,24 @@ disqus: Casassaez
 social:
   - icon: twitter
     url: https://twitter.com/casassaez
-    desc: Follow me on twitter
+    desc: Segueix-nos al Twitter
     share_url: http://twitter.com/share
     share_title: "?text="
     share_link: "&amp;url="
 
+  - icon: github
+    url: https://github.com/futuracat
+    desc: Trobans al GitHub
+    share_url: 
+    share_title: 
+    share_link: 
+
   - icon: facebook
     url: https://facebook.com/???
-    desc: Connect with me facebook
-    share_url: https://www.facebook.com/sharer.php
-    share_title: "?t="
-    share_link: "&amp;u="
+    desc: Connecta al Facebook
+    share_url: https://www.facebook.com/sharer/sharer.php
+    share_title: "?text="
+    share_link: "&u="
 
   # - icon:	github
   #   url:	https://github.com/casassg
