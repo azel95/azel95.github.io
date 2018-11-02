@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Futura: el projecte
+image: /assets/images/flatirons.jpg
 permalink: /about/
 ---
 L'objectiu de la **Futura** és acostar la ciència i la tecnologia a tota la ciutadania, amb un fort accent català, i amb un format rigorós i de qualitat.
