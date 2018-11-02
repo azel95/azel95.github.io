@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Futura: el projecte
+title: "Futura: el projecte"
 image: /assets/images/Flatirons.jpg
 permalink: /about/
 ---
