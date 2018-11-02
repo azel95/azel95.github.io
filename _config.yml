@@ -14,7 +14,7 @@ logo: "/assets/images/Logo_futura2.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/Portada_futura.jpg"
+cover: "/assets/images/Portada.jpg"
 
 paginate: 5i
 
