@@ -10,7 +10,7 @@ link: /assets/songs/Covards.mp3
 ---
 **Tercera cançó :** Covards
 
-> Tags:
+> Tags: ???
 
 Vidres complexos,\
 color d'oceà\
