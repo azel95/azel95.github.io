@@ -3,41 +3,41 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "L'Escèptic"
-name: "L'Escèptic"
+title: "Maqueta EP 2020"
+name: "Maqueta EP 2020"
 description: > # this means to ignore newlines until "email:"
-   La teva revista científica digital en català
+   EP conceptual  (Abril 2020 - Juny 2020)
 
-email: contact@gerard.space
+email:
 #blog logo
 logo: "/assets/images/Logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/Portada.jpg"
+cover: "/assets/images/set-up-comic2.jpg"
 
 paginate: 5
 
 # used to display twitter cards
-twitter_handle: '@casassaez'
+twitter_handle:
 
 #fill in disqus shortname to use disqus
-disqus: Casassaez
+disqus: 
 
 #google_analytics: UA-XXXXX-X
 
 # social icons and sharing options
 social:
   - icon: twitter
-    url: https://twitter.com/casassaez
-    desc: Segueix-nos al Twitter
+    url: https://twitter.com/
+    desc: Segueix al Twitter
     share_url: http://twitter.com/share
     share_title: "?text="
     share_link: "&amp;url="
 
   - icon: github
-    url: https://github.com/esceptic
-    desc: Troba'ns al GitHub
+    url: https://github.com/azel95
+    desc: Troba'm al GitHub
     share_url: 
     share_title: 
     share_link: 
